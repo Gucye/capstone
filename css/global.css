@@ -1,0 +1,62 @@
+@font-face {
+  font-family: custom-font;
+  /* TODO： 字体当前只支持 windows ,需要其他系统则，去下载 对应的 LockClock */
+  src: url(../font/LockClock.ttf);
+}
+
+body {
+  min-height: 100vh;
+  /* 背景图片 */
+  background: #68d5ff;
+  /* 所有颜色 */
+  color: black;
+  line-height: 1.3;
+}
+
+.f-px {
+  font-family: custom-font;
+}
+.f-blue {
+  color: darkblue;
+}
+img {
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header {
+  font-family: custom-font;
+}
+
+.pixel-font-title {
+  font-family: custom-font;
+}
+
+
+.m-top-20 {
+  margin-top: 20px;
+}
+.m-top-10 {
+  margin-top: 10px;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+.txt-indent {
+  text-indent: 2em;
+}
+
+.footer-bg {
+  max-width: 1120px;
+  margin: 0 auto;
+}

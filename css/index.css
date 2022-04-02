@@ -1,0 +1,48 @@
+.header {
+  font-size: 30px;
+  max-width: 1120px;
+  padding: 30px;
+  margin: 0 auto;
+  /* 背景图片 */
+  background: url(../images/to-start-1.png) repeat 100% / 100%;
+  background-size: 100%;
+}
+.content {
+  font-size: 20px;
+  max-width: 1120px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.to-start {
+  max-width: 1120px;
+  padding: 30px;
+  text-align: center;
+  font-size: 40px;
+  margin: 0 auto;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  max-width: 1120px;
+  padding: 30px;
+  display: flex;
+  margin: 0 auto;
+  font-size: 24px;
+}
+
+.footer .information {
+  width: 50%;
+}
+.footer .information .title {
+  font-size: 18px;
+  text-align: left;
+}
+.footer .help {
+  flex: 1;
+}
+.footer .help .title {
+  font-size: 18px;
+}
